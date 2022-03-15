@@ -1,0 +1,81 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body onload="myfun()">
+    
+
+  <!-- start bootstrap 4 and 5 -->
+
+<div class="main">
+  
+  <div class="lan">
+
+  </div>
+
+
+  <div class="containers">
+    <div class="jokeContent">
+      <h2>😍Best Joke To Make Your Day👻</h2>
+      <p id="jokeBody" class="joke"></p>
+      <button id="jokeBtn" class="btn bg-info shadow-lg text-white">Next Joke</button>
+    </div>
+  </div>
+
+
+
+  <div class="alert shadow">
+    <button id="close" class="btn btn-info shadow">Close</button>
+    <div class="box">
+      <p class=" text-capitalize">Translate Any Language Just Go To bottom down and select Language</p>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+  <div class="bg-dark shadow p-3 rounded" id="google_translate_element"></div>
+
+  <script type="text/javascript">
+  function googleTranslateElementInit() {
+    new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+  }
+  </script>
+  
+  <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+  
+
+
+<!-- jQuery library -->
+<script
+  src="https://code.jquery.com/jquery-3.6.0.min.js"
+  integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+  crossorigin="anonymous"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+
+
+
+<script src="index.js"></script>
+<script src="jquery.js"></script>
+
+</body>
+</html>
